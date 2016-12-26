@@ -12,3 +12,9 @@ voice.voip.conc.disabled=true
 persist.radio.cs_srv_type=1
 persist.radio.force_on_dc=true
 persist.radio.redir_party_num=0
+
+# Radio-Volte
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.radio.calls.on.ims=0
+persist.radio.jbims=0
