@@ -5,7 +5,7 @@ audio.offload.pcm.24bit.enable=false
 audio.offload.video=false
 persist.audio.fluence.audiorec=false
 persist.audio.fluence.spk.mono=true
-persist.audio.fluence.voicerec=true
+persist.audio.fluence.voicerec=false
 voice.voip.conc.disabled=true
 
 # Radio
@@ -18,3 +18,15 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.radio.calls.on.ims=0
 persist.radio.jbims=0
+persist.radio.hw_mbn_update=0
+persist.radio.sw_mbn_update=0
+persist.radio.VT_HYBRID_ENABLE=1
+persist.audio.fluence.voicecall=false
+ro.qc.sdk.audio.fluencetype=none
+ro.telephony.default_network=9,9
+telephony.lteOnCdmaDevice=1,1
+
+# IMS
+service.qti.ims.enabled=1	
+persist.radio.calls.on.ims=0	
+persist.radio.imsregrequired=1	
